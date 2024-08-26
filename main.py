@@ -346,7 +346,6 @@ except KeyboardInterrupt:
     clean(tempdir, is_lang, has_mod, has_resourcepack)
     use_time = time.time() - start_time
     log("生成失败！用时" + str(int(use_time)) + "秒")
-    log("建议将日志发送至作者来修复bug")
     log("按任意键退出")
     input()
     exit(2)
